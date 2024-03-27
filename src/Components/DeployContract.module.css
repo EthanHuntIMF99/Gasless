@@ -1,0 +1,29 @@
+/* DeployContract.module.css */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.deployButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.deployButton:hover {
+  background-color: #0056b3;
+}
+
+/* Global styles - e.g., in index.css or App.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
